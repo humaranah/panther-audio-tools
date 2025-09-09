@@ -8,7 +8,6 @@
         x:Class="PantherAudioTools.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
         Title="PantherAudioTools"
-        Background="{StaticResource ThemeBackgroundBrush}"
         ExtendClientAreaToDecorationsHint="True"
         ExtendClientAreaChromeHints="PreferSystemChrome"
         ExtendClientAreaTitleBarHeightHint="-1"

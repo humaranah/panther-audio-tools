@@ -1,4 +1,6 @@
 ﻿using Avalonia.Controls;
+using Avalonia.Media;
+using System;
 
 namespace PantherAudioTools.Views;
 
@@ -6,11 +8,11 @@ public partial class MainWindow : Window
 {
     public MainWindow()
     {
-        TransparencyLevelHint =
-        [
-            WindowTransparencyLevel.Mica,
-            WindowTransparencyLevel.AcrylicBlur
-        ];
+        if (OperatingSystem.IsWindows())
+        {
+            TransparencyLevelHint = [ WindowTransparencyLevel.Mica ];
+            Background = Brushes.Transparent;
+        }
         InitializeComponent();
     }
 }

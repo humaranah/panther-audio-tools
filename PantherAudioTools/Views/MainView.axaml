@@ -13,5 +13,12 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <DockPanel>
+    <StackPanel DockPanel.Dock="Left" Width="150">
+      <Button Content="Home" Command="{Binding NavigateToCommand}" CommandParameter="home" Margin="5"/>
+      <Button Content="File Manager" Command="{Binding NavigateToCommand}" CommandParameter="fileManager" Margin="5"/>
+    </StackPanel>
+    
+    <ContentControl Content="{Binding CurrentView}" />
+  </DockPanel>
 </UserControl>

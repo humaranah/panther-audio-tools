@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/source/">
+    <Project Path="source/Panther.AudioTools.Core/Panther.AudioTools.Core.csproj" Id="a10d499a-9143-4921-991d-286d4581b74e" />
+    <Project Path="source/Panther.AudioTools/Panther.AudioTools.csproj" Id="bbad43f5-cea2-4ffe-b60a-0fc6626c778e" />
+  </Folder>
+  <Folder Name="/source/Modules/">
+    <Project Path="source/Modules/AudioConverter/AudioConverter.csproj" Id="f74e38f3-84fa-415e-bd61-92cd185fdcf8" />
+  </Folder>
+</Solution>

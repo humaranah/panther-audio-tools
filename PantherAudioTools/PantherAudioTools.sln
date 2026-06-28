@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantherAudioTools.Core", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantherAudioTools.Infrastructure", "..\PantherAudioTools.Infrastructure\PantherAudioTools.Infrastructure.csproj", "{11403644-938A-44B2-B6D8-FA77747D8146}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantherAudioTools.CLI", "..\PantherAudioTools.CLI\PantherAudioTools.CLI.csproj", "{C8EACBCE-8C02-4699-BB9F-B3494E5F5155}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{FBB07EC5-2DCF-404E-9523-A58520948F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantherAudioTools.MusicSorter", "..\Modules\PantherAudioTools.MusicSorter\PantherAudioTools.MusicSorter.csproj", "{37E5EFD8-1F97-4D08-B339-4AD0368234A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +41,26 @@ Global
 		{11403644-938A-44B2-B6D8-FA77747D8146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11403644-938A-44B2-B6D8-FA77747D8146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11403644-938A-44B2-B6D8-FA77747D8146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EACBCE-8C02-4699-BB9F-B3494E5F5155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EACBCE-8C02-4699-BB9F-B3494E5F5155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EACBCE-8C02-4699-BB9F-B3494E5F5155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EACBCE-8C02-4699-BB9F-B3494E5F5155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E5EFD8-1F97-4D08-B339-4AD0368234A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E5EFD8-1F97-4D08-B339-4AD0368234A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E5EFD8-1F97-4D08-B339-4AD0368234A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E5EFD8-1F97-4D08-B339-4AD0368234A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F21A325-9C9E-C01A-4945-EFE73C230148} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C50A361F-56A6-DC72-37B4-AA1A0465C181} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6A39CD58-3EAC-4679-9A99-A6FCD7777D02} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{11403644-938A-44B2-B6D8-FA77747D8146} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C8EACBCE-8C02-4699-BB9F-B3494E5F5155} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FBB07EC5-2DCF-404E-9523-A58520948F27} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{37E5EFD8-1F97-4D08-B339-4AD0368234A2} = {FBB07EC5-2DCF-404E-9523-A58520948F27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37AD9FDA-332C-4458-825A-EFA086C8195E}
